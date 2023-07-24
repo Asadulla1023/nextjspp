@@ -38,7 +38,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-
+        <video src='/video/qodirali1.mp4' controls />
+        <video src='/video/qodirali.mp4' controls />
+        <video src='/video/sig.mp4' autoPlay controls />
         <div className={styles.center}>
           <Image
             className={styles.logo}
