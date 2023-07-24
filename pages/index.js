@@ -38,9 +38,15 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <video src='/video/qodirali1.mp4' controls />
-        <video src='/video/qodirali.mp4' controls />
-        <video src='/video/sig.mp4' autoPlay controls />
+        <video src='/video/sig.mp4' autoPlay width={300} style={{
+          height: "auto"
+        }}  controls loop/>
+        <video src='/video/qodirali1.mp4' width={300} style={{
+          height: "auto"
+        }} controls />
+        <video height={1000} style={{
+          width: "auto"
+        }} src='/video/qodirali.mp4' controls />
         <div className={styles.center}>
           <Image
             className={styles.logo}
